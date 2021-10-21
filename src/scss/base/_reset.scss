@@ -1,0 +1,23 @@
+:root {
+  box-sizing: border-box;
+  font-size: 16;
+  scroll-behavior: smooth; //hace que el scroll se vea más liviano
+}
+
+*,
+*::after,
+*::before{
+  box-sizing: inherit;
+}
+
+body{
+  margin: 0;
+  overflow-x: hidden; //impide desplazamiento horizontal
+  min-height: 98vh;
+  background-color: #EDEDED;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,11 @@
+extends ../templates/template
+
+block css 
+
+block js
+
+block header
+
+block main
+    
+block footer

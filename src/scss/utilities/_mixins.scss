@@ -1,0 +1,26 @@
+//los mixins se importan siempre en la primera linea
+$mobile: 360px; 
+$tablet: 768px; 
+$laptop: 1024px; 
+$desktop: 1400px; 
+
+@mixin mobile{ //nombre de la función
+  @media screen and (min-width: $mobile){
+    @content; //contenido de la función
+  }
+}
+@mixin tablet{
+  @media screen and (min-width: $tablet){
+    @content;
+  }
+}
+@mixin laptop{
+  @media screen and (min-width: $laptop){
+    @content;
+  }
+}
+@mixin desktop{
+  @media screen and (min-width: $desktop){
+    @content;
+  }
+}
